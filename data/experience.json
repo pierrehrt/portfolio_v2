@@ -1,0 +1,56 @@
+{
+  "data": [
+    {
+      "title": "Senior Frontend Engineer, Accessibility",
+      "description": "Build and maintain critical components used to construct Klaviyo’s frontend, across the whole product. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility.",
+      "companyName": "Klaviyo",
+      "companyUrl": "https://www.klaviyo.com/",
+      "startYear": "2024",
+      "endYear": "Present",
+      "tags": ["JavaScript", "Vue", "Nuxt", "TypeScript"],
+      "position": "Senior Engineer"
+    },
+    {
+      "title": "Senior Frontend Engineer, Accessibility",
+      "description": "Build and maintain critical components used to construct Klaviyo’s frontend, across the whole product. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility.",
+      "companyName": "Klaviyo",
+      "companyUrl": "https://www.klaviyo.com/",
+      "startYear": "2024",
+      "endYear": "Present",
+      "tags": ["JavaScript", "Vue", "Nuxt", "TypeScript"],
+      "relatedLinks": [
+        {
+          "name": "MusicKit.js",
+          "url": "https://developer.apple.com/documentation/musickitjs"
+        },
+        {
+          "name": "9to5Mac",
+          "url": "https://9to5mac.com/2018/06/03/apple-music-embeddable-web-player-listen-browser/"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/2017/10/5/16433770/facebook-messenger-apple-music-bot-song-streaming"
+        }
+      ]
+    },
+    {
+      "title": "Senior Frontend Engineer, Accessibility",
+      "description": "Build and maintain critical components used to construct Klaviyo’s frontend, across the whole product. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility.",
+      "companyName": "Klaviyo",
+      "companyUrl": "https://www.klaviyo.com/",
+      "startYear": "2024",
+      "endYear": "Present",
+      "tags": ["JavaScript", "Vue", "Nuxt", "TypeScript"]
+    },
+    {
+      "title": "Senior Frontend Engineer, Accessibility",
+      "description": "Build and maintain critical components used to construct Klaviyo’s frontend, across the whole product. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility.",
+      "companyName": "Klaviyo",
+      "companyUrl": "https://www.klaviyo.com/",
+      "startYear": "2024",
+      "endYear": "Present",
+      "tags": ["JavaScript", "Vue", "Nuxt", "TypeScript"],
+      "position": "Senior Engineer"
+    }
+  ]
+}

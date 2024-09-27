@@ -1,3 +1,21 @@
 @tailwind base;
+
+@layer base {
+  p {
+    @apply text-slate-400;
+  }
+  a {
+    @apply text-slate-400;
+  }
+}
+
 @tailwind components;
 @tailwind utilities;
+
+body {
+  background-color: rgb(15 23 42/1);
+}
+
+html {
+  scroll-behavior: smooth;
+}

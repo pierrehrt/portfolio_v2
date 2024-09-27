@@ -8,7 +8,7 @@
     >
       Fullstack Developer
     </h2>
-    <p class="mt-4 max-w-xs leading-normal">
+    <p class="mt-4 max-w-xs leading-normal text">
       I build pixel-perfect, engaging, and accessible digital experiences.
     </p>
   </div>
