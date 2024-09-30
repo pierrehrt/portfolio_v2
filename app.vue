@@ -16,27 +16,7 @@
       <main class="pt-24 lg:w-1/2 lg:py-24">
         <About />
         <Experience />
-        <Intro />
-        <Intro />
-        <Intro />
-        <Intro />
-        <Intro />
-        <Intro />
-        <Intro />
-        <Intro />
-        <Intro />
-        <Intro />
-        <Intro />
-        <Intro />
-        <Intro />
-        <Intro />
-        <Intro />
-        <Intro />
-        <Intro />
-        <Intro />
-        <Intro />
-        <Intro />
-        <Intro />
+        <Projects />
       </main>
     </div>
   </div>

@@ -1,0 +1,11 @@
+{
+  "data": [
+    {
+      "title": "Build a Spotify Connected App",
+      "description": "Build a Spotify Connected App with the Spotify Web API and the Spotify iOS SDK. Build a Spotify Connected App with the Spotify Web API and the Spotify iOS SDK.",
+      "projecturl": "https://github.com/bchiang7/spotify-profile",
+      "imagePath": "/projects/course-card.webp",
+      "tags": ["JavaScript", "Vue", "Nuxt", "TypeScript"]
+    }
+  ]
+}
