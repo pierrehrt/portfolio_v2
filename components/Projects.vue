@@ -22,6 +22,7 @@
             :projecturl="doc.projecturl"
             :imagePath="doc.imagePath"
             :tags="doc.tags"
+            :relatedLinks="doc.relatedLinks"
           />
         </li>
       </ul>

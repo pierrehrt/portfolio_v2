@@ -1,11 +1,28 @@
 {
   "data": [
     {
-      "title": "Build a Spotify Connected App",
-      "description": "Build a Spotify Connected App with the Spotify Web API and the Spotify iOS SDK. Build a Spotify Connected App with the Spotify Web API and the Spotify iOS SDK.",
-      "projecturl": "https://github.com/bchiang7/spotify-profile",
+      "title": "NutriLog",
+      "description": "Build a food recepies & macro nutrition tracker with React and Golang. ",
+      "projecturl": "https://www.goyaly.com/",
       "imagePath": "/projects/course-card.webp",
-      "tags": ["JavaScript", "Vue", "Nuxt", "TypeScript"]
+      "tags": ["NextJs", "Firebase", "Stripe", "TypeScript"]
+    },
+    {
+      "title": "GoYaly Car Rental",
+      "description": "A web app for a private car rental company in Seattle, WA. Users can browse and rent the perfect car, while admins can manage bookings, payments, and deposits seamlessly.",
+      "projecturl": "https://www.goyaly.com/",
+      "imagePath": "/projects/goyaly-project-cover.jpg",
+      "tags": ["NextJs", "Firebase", "Stripe", "TypeScript"],
+      "relatedLinks": [
+        {
+          "name": "Arnaud Hrt",
+          "url": "https://www.arnaudhrt.me/"
+        },
+        {
+          "name": "Tiago Vale",
+          "url": "https://github.com/Songovan"
+        }
+      ]
     }
   ]
 }

@@ -1,6 +1,6 @@
 <template>
   <a
-    class="relative mt-2 inline-flex items-center text-sm font-medium text-slate-300 hover:text-teal-300 focus-visible:text-teal-300"
+    class="relative inline-flex items-center text-sm font-medium text-slate-300 hover:text-teal-300 focus-visible:text-teal-300"
     :href="url"
     target="_blank"
     rel="noreferrer noopener"

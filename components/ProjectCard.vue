@@ -26,6 +26,18 @@
       <p class="mt-2 text-sm leading-normal">
         {{ description }}
       </p>
+      <div class="mt-2 flex flex-wrap items-center gap-4" v-if="relatedLinks">
+        <span class="text-sm leading-normal text-slate-400">Team: </span>
+        <ul
+          class="flex flex-wrap items-center"
+          aria-label="Related links"
+          v-if="relatedLinks && relatedLinks.length > 0"
+        >
+          <li class="mr-4" v-for="link in relatedLinks" :key="link">
+            <RelatedLink :linkName="link.name" :url="link.url" />
+          </li>
+        </ul>
+      </div>
       <ul class="mt-2 flex flex-wrap" v-if="tags">
         <li class="mr-1.5 mt-2" v-for="tag in tags" :key="tag">
           <TagPill :name="tag" />
@@ -53,6 +65,7 @@ defineProps<{
   projecturl: string;
   imagePath: string;
   tags?: string[];
+  relatedLinks: { name: string; url: string }[] | undefined;
 }>();
 </script>
 <style lang=""></style>
