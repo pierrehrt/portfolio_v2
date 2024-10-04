@@ -1,23 +1,23 @@
 {
   "data": [
     {
-      "title": "Senior Frontend Engineer, Accessibility",
+      "title": "Full Stack Developer",
       "description": "Build and maintain critical components used to construct Klaviyo’s frontend, across the whole product. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility.",
-      "companyName": "Klaviyo",
-      "companyUrl": "https://www.klaviyo.com/",
+      "companyName": "Be Fit For Life Co., Ltd",
+      "companyUrl": "https://befitwithjess.com/",
       "startYear": "2024",
       "endYear": "Present",
-      "tags": ["JavaScript", "Vue", "Nuxt", "TypeScript"],
-      "position": "Senior Engineer"
+      "tags": ["Flutter", "NextJs", "Go", "Firebase"],
+      "position": "Mobile App Developement"
     },
     {
-      "title": "Senior Frontend Engineer, Accessibility",
+      "title": "Frontend Developer, Mobile",
       "description": "Build and maintain critical components used to construct Klaviyo’s frontend, across the whole product. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility.",
-      "companyName": "Klaviyo",
-      "companyUrl": "https://www.klaviyo.com/",
-      "startYear": "2024",
-      "endYear": "Present",
-      "tags": ["JavaScript", "Vue", "Nuxt", "TypeScript"],
+      "companyName": "FlaminGo! Phuket",
+      "companyUrl": "https://www.flamingophuket.com/",
+      "startYear": "2023",
+      "endYear": "2024",
+      "tags": ["Flutter", "Strapi", "Firebase"],
       "relatedLinks": [
         {
           "name": "MusicKit.js",
@@ -34,23 +34,23 @@
       ]
     },
     {
-      "title": "Senior Frontend Engineer, Accessibility",
+      "title": "Junior Web Developer",
       "description": "Build and maintain critical components used to construct Klaviyo’s frontend, across the whole product. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility.",
-      "companyName": "Klaviyo",
-      "companyUrl": "https://www.klaviyo.com/",
-      "startYear": "2024",
-      "endYear": "Present",
-      "tags": ["JavaScript", "Vue", "Nuxt", "TypeScript"]
+      "companyName": "Crazy Web Studio Co., Ltd",
+      "companyUrl": "https://www.crazywebstudio.co.th/",
+      "startYear": "2021",
+      "endYear": "2024",
+      "tags": ["Wordpress", "PHP", "JavaScript", "CSS"]
     },
     {
-      "title": "Senior Frontend Engineer, Accessibility",
+      "title": "Web Developer",
       "description": "Build and maintain critical components used to construct Klaviyo’s frontend, across the whole product. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility.",
-      "companyName": "Klaviyo",
-      "companyUrl": "https://www.klaviyo.com/",
-      "startYear": "2024",
-      "endYear": "Present",
-      "tags": ["JavaScript", "Vue", "Nuxt", "TypeScript"],
-      "position": "Senior Engineer"
+      "companyName": "Ingenius",
+      "companyUrl": "https://ingenius.agency/",
+      "startYear": "2020",
+      "endYear": "2021",
+      "tags": ["PHP", "JavaScript", "MySQL"],
+      "position": "Internship"
     }
   ]
 }
