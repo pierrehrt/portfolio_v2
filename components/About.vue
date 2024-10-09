@@ -15,10 +15,9 @@
     </div>
     <div>
       <p class="mb-4">
-        Back in 2019, I decided after ending my 5 years military contract to
-        jump in that rabbit hole of coding and web development. <br />
+        {{ $t("aboutLine1") }} <br />
         <br />
-        My journey in tech began as a junior front-end developer at
+        {{ $t("aboutLine2") }}
         <a
           href="https://www.crazywebstudio.co.th/ "
           class="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
@@ -27,8 +26,8 @@
           aria-label="Crazy Web Studio (opens in a new tab)"
           >Crazy Web Studio</a
         >
-        in Phuket, Thailand. Over three years, I worked on a wide range of web
-        development projects. My career took a major turn when I rebuilt
+        {{ $t("aboutLine3") }}
+
         <a
           href="https://www.flamingophuket.com/"
           class="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
@@ -36,10 +35,12 @@
           rel="noreferrer noopener"
           aria-label="Flamingo the Phuket App (opens in a new tab)"
           >FlaminGO! the Phuket App</a
-        >, transitioning from web development to mobile development.
+        >
+        {{ $t("aboutLine4") }}
       </p>
       <p class="mb-4">
-        Currently, I work full time for
+        {{ $t("aboutLine5") }}
+
         <a
           href="https://befitwithjess.com/"
           class="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
@@ -48,13 +49,10 @@
           aria-label="be fit for life limited (opens in a new tab)"
           >Be Fit For Life Limited</a
         >
-        based in Bangkok in full remote, where I initially developed a fitness
-        mobile application from the ground up. Today, I oversee the entire
-        development process, including backend, frontend, and DevOps..
+        {{ $t("aboutLine6") }}
       </p>
       <p class="mb-4">
-        In my free time, I enjoy running, lifting, swimming, and diving into
-        side projects to fuel my passion for coding.
+        {{ $t("aboutLine7") }}
       </p>
     </div>
   </section>

@@ -24,12 +24,13 @@
 
 <script setup lang="ts">
 import { ref, onMounted, onBeforeUnmount } from "vue";
+const { t, locale } = useI18n();
 
 const sections = ref([
-  { name: "About", anchor: "#about" },
-  { name: "Experience", anchor: "#experience" },
-  { name: "Projects", anchor: "#projects" },
-  { name: "Articles", anchor: "#articles" },
+  { name: t("about"), anchor: "#about" },
+  { name: t("experience"), anchor: "#experience" },
+  { name: t("projects"), anchor: "#projects" },
+  { name: t("articles"), anchor: "#articles" },
 ]);
 
 const activeSection = ref("");
@@ -57,8 +58,15 @@ onMounted(() => {
 onBeforeUnmount(() => {
   window.removeEventListener("scroll", handleScroll);
 });
+watch(locale, () => {
+  sections.value = [
+    { name: t("about"), anchor: "#about" },
+    { name: t("experience"), anchor: "#experience" },
+    { name: t("projects"), anchor: "#projects" },
+    { name: t("articles"), anchor: "#articles" },
+  ];
+});
 </script>
-
 
 <style>
 .active .nav-text {

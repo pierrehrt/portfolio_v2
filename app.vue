@@ -8,6 +8,7 @@
       >
         <div>
           <Intro />
+          <LanguageSwitcher />
           <Navigation />
         </div>
         <Socials />
@@ -23,3 +24,7 @@
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+const { locale } = useI18n();
+</script>

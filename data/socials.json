@@ -1,0 +1,24 @@
+{
+  "data": [
+    {
+      "name": "Github",
+      "url": "https://github.com/pierrehrt",
+      "icon": "Github"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/pierreehrt/",
+      "icon": "Instagram"
+    },
+    {
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/in/pierrehuret/",
+      "icon": "Linkedin"
+    },
+    {
+      "name": "X",
+      "url": "https://x.com/Pierre_Hrt",
+      "icon": "X"
+    }
+  ]
+}

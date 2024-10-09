@@ -16,10 +16,23 @@ export default defineNuxtConfig({
     "@nuxt/image",
     "nuxt-svgo",
     "@nuxt/content",
+    "@nuxtjs/i18n",
   ],
 
   typescript: {
     typeCheck: true,
+  },
+
+  i18n: {
+    locales: [
+      { code: "en", name: "English", iso: "en-US", file: "en.json" },
+      { code: "th", name: "ไทย", iso: "th-TH", file: "th.json" },
+      { code: "fr", name: "Français", iso: "fr-FR", file: "fr.json" },
+    ],
+    strategy: "no_prefix",
+    defaultLocale: "en",
+    lazy: true,
+    langDir: "locales/",
   },
 
   components: [
