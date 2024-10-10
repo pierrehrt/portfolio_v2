@@ -14,6 +14,8 @@ module.exports = {
         primary: "#00B7FF",
         secondary: "#00B7FF",
         accent: "#00B7FF",
+        bg: "#0f172a",
+        nav: "#0D1324",
       },
     },
     fontFamily: {

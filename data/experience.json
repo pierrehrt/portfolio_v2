@@ -2,17 +2,27 @@
   "data": [
     {
       "title": "Full Stack Developer",
-      "description": "Build and maintain critical components used to construct Klaviyo’s frontend, across the whole product. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility.",
+      "description": "I lead the development of a fitness application in Bangkok, built from the ground up by our team. After a year of dedicated development, the app successfully launched and now serves 5,000+ daily users. I oversee and contribute to both backend and frontend teams, ensuring seamless functionality, guiding development best practices, and driving continuous improvements to optimize performance and user experience.",
       "companyName": "Be Fit For Life Co., Ltd",
       "companyUrl": "https://befitwithjess.com/",
       "startYear": "2024",
       "endYear": "Present",
       "tags": ["Flutter", "NextJs", "Go", "Firebase"],
-      "position": "Mobile App Developement"
+      "position": "Mobile App Developement",
+      "relatedLinks": [
+        {
+          "name": "apple store",
+          "url": "https://apps.apple.com/th/app/be-fit-with-jess-%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%99%E0%B8%AD%E0%B8%AD%E0%B8%99%E0%B9%84%E0%B8%A5%E0%B8%99/id6466455799?l=th"
+        },
+        {
+          "name": "play store",
+          "url": "https://play.google.com/store/apps/details?id=com.be_fit_with_jess_flutter.app&hl=en"
+        }
+      ]
     },
     {
       "title": "Frontend Developer, Mobile",
-      "description": "Build and maintain critical components used to construct Klaviyo’s frontend, across the whole product. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility.",
+      "description": "As the lead developer for FlaminGO!, I spearheaded the project to rebuild the app from the ground up using Flutter/Dart technology, enabling the app to function seamlessly on both iOS and Android platforms. My responsibilities included overseeing the entire development process, from planning and design to coding, testing, and deployment. The app saw significant improvements in performance and speed, ensuring smooth navigation and an enhanced user experience. This project was pivotal in my transition from web to mobile development, marking a key milestone in my career.",
       "companyName": "FlaminGo! Phuket",
       "companyUrl": "https://www.flamingophuket.com/",
       "startYear": "2023",
@@ -20,22 +30,22 @@
       "tags": ["Flutter", "Strapi", "Firebase"],
       "relatedLinks": [
         {
-          "name": "MusicKit.js",
-          "url": "https://developer.apple.com/documentation/musickitjs"
+          "name": "apple store",
+          "url": "https://apps.apple.com/app/id1321475099"
         },
         {
-          "name": "9to5Mac",
-          "url": "https://9to5mac.com/2018/06/03/apple-music-embeddable-web-player-listen-browser/"
+          "name": "play store",
+          "url": "https://play.google.com/store/apps/details?id=com.goodbarber.flamingophuket"
         },
         {
-          "name": "The Verge",
-          "url": "https://www.theverge.com/2017/10/5/16433770/facebook-messenger-apple-music-bot-song-streaming"
+          "name": "latest event",
+          "url": "https://www.youtube.com/watch?v=7SKLYs_iato"
         }
       ]
     },
     {
       "title": "Junior Web Developer",
-      "description": "Build and maintain critical components used to construct Klaviyo’s frontend, across the whole product. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility.",
+      "description": "Developed and maintained various websites and e-commerce platforms, primarily using WordPress/PHP and Shopify. Worked closely with designers and clients to deliver tailored solutions, ensuring optimal performance and functionality while adhering to best development practices",
       "companyName": "Crazy Web Studio Co., Ltd",
       "companyUrl": "https://www.crazywebstudio.co.th/",
       "startYear": "2021",
@@ -44,7 +54,7 @@
     },
     {
       "title": "Web Developer",
-      "description": "Build and maintain critical components used to construct Klaviyo’s frontend, across the whole product. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility.",
+      "description": "Contributed to the development and maintenance of client websites. Collaborated with senior developers to implement client-specific features, ensuring high-quality results and smooth functionality throughout the project lifecycle",
       "companyName": "Ingenius",
       "companyUrl": "https://ingenius.agency/",
       "startYear": "2020",

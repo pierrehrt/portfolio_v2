@@ -1,24 +1,45 @@
 <template>
-  <nav class="nav hidden lg:block">
-    <ul class="mt-16 w-max">
-      <li class="gap-4 flex flex-col">
-        <a
-          v-for="(section, index) in sections"
-          :key="index"
-          :href="section.anchor"
-          :class="['group', { active: activeSection === section.anchor }]"
-        >
-          <span
-            class="inline-block nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"
-          ></span>
-          <span
-            class="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200"
+  <nav
+    class="fixed z-40 bottom-4 left-1/2 transform -translate-x-1/2 sm:block hidden"
+  >
+    <div
+      class="border border-slate-700/50 flex p-[7px] rounded-lg gap-1.5 bg-nav/80 backdrop-blur"
+    >
+      <div
+        class="py-2 px-6 rounded-lg flex items-center bg-slate-800/50 flex justify-stretch items-center"
+      >
+        <p class="text-white text-xl">P.</p>
+      </div>
+      <ul class="w-max p-[7px] rounded-lg flex items-center gap-[7px] bg-bg">
+        <li class="gap-[7px] flex">
+          <a
+            v-for="(section, index) in sections"
+            :key="index"
+            :href="section.anchor"
+            :class="[
+              'group border nav-box border-slate-700/50 py-3 px-4 rounded-md hover:border-slate-500 transition-all',
+              { active: activeSection === section.anchor },
+            ]"
           >
-            {{ section.name }}
-          </span>
-        </a>
-      </li>
-    </ul>
+            <span
+              class="nav-text whitespace-nowrap text-xs uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200"
+            >
+              {{ section.name }}
+            </span>
+          </a>
+        </li>
+      </ul>
+
+      <a
+        class="nav-text text-xs font-bold uppercase text-white whitespace-nowrap p-1 rounded-lg flex items-center py-2 px-4 bg-slate-800/50 hover:bg-teal-400/80 transition-all"
+        href="mailto:pierrehuret79@gmail.com"
+        target="_blank"
+        rel="noreferrer noopener"
+        aria-label="Send an email (opens in a new tab)"
+      >
+        Email Me</a
+      >
+    </div>
   </nav>
 </template>
 
@@ -72,15 +93,15 @@ watch(locale, () => {
 .active .nav-text {
   --tw-text-opacity: 1;
   color: rgb(226 232 240 / var(--tw-text-opacity));
+  border-color: rgb(226 232 240 / var(--tw-text-opacity));
+}
+.active.nav-box {
+  --tw-text-opacity: 1;
+  border-color: rgb(226 232 240 / var(--tw-text-opacity));
 }
 .transition-all {
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 0.15s;
-}
-.active .nav-indicator {
-  width: 4rem;
-  --tw-bg-opacity: 1;
-  background-color: rgb(226 232 240 / var(--tw-bg-opacity));
 }
 </style>

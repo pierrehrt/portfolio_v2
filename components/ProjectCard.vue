@@ -65,7 +65,7 @@ defineProps<{
   projecturl: string;
   imagePath: string;
   tags?: string[];
-  relatedLinks: { name: string; url: string }[] | undefined;
+  relatedLinks?: { name: string; url: string }[] | undefined;
 }>();
 </script>
 <style lang=""></style>

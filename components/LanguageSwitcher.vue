@@ -1,8 +1,13 @@
 <template>
-  <nav class="flex mt-6">
+  <nav
+    class="flex lg:fixed absolute z-20 right-4 top-[20px] lg:top-1/2 lg:transform lg:-translate-y-1/2"
+  >
     <div
-      class="border border-slate-700/50 p-1.5 rounded-lg flex items-center gap-1"
+      class="border border-slate-700/50 p-1.5 rounded-lg flex flex-col items-center gap-1"
     >
+      <div class="text-slate-400 p-2">
+        <LanguageIcon class="w-5" :fontControlled="false" />
+      </div>
       <a
         href="#"
         v-for="localeItem in locales"
@@ -19,5 +24,6 @@
 </template>
 
 <script setup>
+import LanguageIcon from "~/assets/icons/languages.svg";
 const { locale, locales, setLocale } = useI18n();
 </script>

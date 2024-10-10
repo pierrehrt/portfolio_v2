@@ -48,7 +48,7 @@
         aria-label="Related links"
         v-if="relatedLinks && relatedLinks.length > 0"
       >
-        <li class="mr-4 mt-2" v-for="link in relatedLinks" :key="link">
+        <li class="mr-4 mt-2" v-for="link in relatedLinks" :key="link.name">
           <RelatedLink :linkName="link.name" :url="link.url" />
         </li>
       </ul>
@@ -72,6 +72,6 @@ defineProps<{
   startYear: string;
   endYear: string;
   tags?: string[];
-  relatedLinks: any[];
+  relatedLinks?: { name: string; url: string }[] | undefined;
 }>();
 </script>

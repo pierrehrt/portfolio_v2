@@ -2,10 +2,8 @@
   <div>
     <NuxtImg
       src="/about/pierre.jpeg"
-      height="100"
-      width="100"
       alt="Pierre Huret"
-      class="rounded-full border mb-4"
+      class="rounded-full border mb-4 2xl:h-[100px] 2xl:w-[100px] h-[80px] w-[80px] object-cover"
     />
     <h1 class="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl">
       Pierre Huret

@@ -1,7 +1,7 @@
 <template>
-  <div class="flex">
+  <div class="flex lg:fixed z-20 lg:left-4 lg:top-1/2 lg:transform lg:-translate-y-1/2">
     <ul
-      class="mt-8 border border-slate-700/50 p-1.5 rounded-lg flex items-center gap-1"
+      class="mt-8 border border-slate-700/50 p-[6px] rounded-lg flex lg:flex-col items-center gap-[6px]"
     >
       <li
         v-for="(social, index) in socials"
@@ -11,11 +11,11 @@
         <NuxtLink
           :to="social.url"
           target="_blank"
-          class="block hover:text-slate-200 hover:bg-slate-800/50 p-3 rounded-lg"
+          class="block hover:text-slate-200 hover:bg-slate-800/50 p-3 rounded-md"
         >
           <component
             :is="icons[social.icon]"
-            :class="social.icon === 'X' ? 'h-5 w-5' : 'h-6 w-6'"
+            :class="social.icon === 'X' ? 'h-4 w-4' : 'h-5 w-5'"
             :fontControlled="false"
           />
         </NuxtLink>
