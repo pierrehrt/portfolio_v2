@@ -26,6 +26,7 @@
     "vue-tsc": "^2.1.6"
   },
   "dependencies": {
+    "@intlify/shared": "^10.0.4",
     "@vueuse/motion": "^2.2.5",
     "vue-i18n": "^10.0.4"
   }
