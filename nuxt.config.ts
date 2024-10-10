@@ -1,4 +1,3 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
 
@@ -15,6 +14,7 @@ export default defineNuxtConfig({
     "@nuxt/ui",
     "@nuxt/image",
     "nuxt-svgo",
+    "@nuxtjs/i18n",
     "@nuxt/content",
     "@nuxtjs/i18n",
   ],
