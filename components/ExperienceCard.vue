@@ -43,14 +43,14 @@
       <p class="mt-2 text-sm leading-normal">
         {{ description }}
       </p>
-      <ul class="mt-2 flex flex-wrap " aria-label="Related links" v-if="relatedLinks && relatedLinks.length > 0">
-        <li class="mr-4 mt-2"  v-for="link in relatedLinks" :key="link">
-          <RelatedLink
-            :linkName="link.name"
-            :url="link.url"
-          />
+      <ul
+        class="mt-2 flex flex-wrap"
+        aria-label="Related links"
+        v-if="relatedLinks && relatedLinks.length > 0"
+      >
+        <li class="mr-4 mt-2" v-for="link in relatedLinks" :key="link">
+          <RelatedLink :linkName="link.name" :url="link.url" />
         </li>
-        
       </ul>
       <ul class="mt-2 flex flex-wrap" v-if="tags">
         <li class="mr-1.5 mt-2" v-for="tag in tags" :key="tag">

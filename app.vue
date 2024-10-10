@@ -26,5 +26,14 @@
 </template>
 
 <script setup lang="ts">
-const { locale } = useI18n();
+useSeoMeta({
+  title: "Pierre Huret | Fullstack Developer | Scalable Digital Solutions",
+  ogTitle: "Pierre Huret | Fullstack Developer | Scalable Digital Solutions",
+  description:
+    "I'm Pierre, fullstack developer specializing in creating scalable, efficient, and user-friendly digital solutions. With experience in software development, I offer expertise in developing and managing entire project, including front and backend on web and mobile.",
+  ogDescription:
+    "I'm Pierre, fullstack developer specializing in creating scalable, efficient, and user-friendly digital solutions. With experience in software development, I offer expertise in developing and managing entire project, including front and backend on web and mobile.",
+  ogImage: "/about/pierre.jpeg",
+  twitterCard: "summary_large_image",
+});
 </script>

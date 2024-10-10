@@ -18,6 +18,13 @@
     <p class="mt-4 max-w-xs leading-normal text">
       {{ $t("introDesc") }}
     </p>
+    <div class="flex gap-4 mt-5">
+      <RelatedLink link-name="Email me" url="mailto:pierrehuret79@gmail.com" />
+      <RelatedLink
+        link-name="Schedule a call"
+        url="https://cal.com/pierre-hrt/30min"
+      />
+    </div>
   </div>
 </template>
 
