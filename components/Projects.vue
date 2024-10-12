@@ -27,9 +27,9 @@
         </li>
       </ul>
 
-      <div class="mt-12">
+      <!-- <div class="mt-12">
         <TextLink url="/archive" name="View Full Project Archive" />
-      </div>
+      </div> -->
     </div>
   </section>
 </template>

@@ -3,7 +3,7 @@
     {
       "title": "NutriLog",
       "description": "Build a food recepies & macro nutrition tracker with React and Golang. ",
-      "projecturl": "https://www.goyaly.com/",
+      "projecturl": "",
       "imagePath": "/projects/course-card.webp",
       "tags": ["NextJs", "Firebase", "Stripe", "TypeScript"]
     },

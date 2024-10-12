@@ -3,6 +3,12 @@
     class="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0"
   >
     <Navigation />
+    <BottomPopup
+      name="Lastest Article"
+      description="Migrating Photos and Videos from Cloudinary to Bunny.net in Strapi Headless CMS"
+      img="/articles/bunny-cloudinary.webp"
+      url="https://medium.com/@pierrehrt/migrating-photos-and-videos-from-cloudinary-to-bunny-net-in-strapi-headless-cms-54833e9ec1fa"
+    />
     <div class="lg:flex lg:justify-between lg:gap-4 items-stretch">
       <header
         class="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-20"

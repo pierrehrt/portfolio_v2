@@ -1,16 +1,10 @@
 {
   "data": [
     {
-      "title": "Integrating Algolia Search with WordPress Multisite",
-      "articleUrl": "https://upstatement.com/blog/integrating-algolia-search-with-wordpress-multisite/",
-      "imagePath": "/articles/algolia-search.webp",
-      "year": "2020"
-    },
-    {
-      "title": "Integrating Algolia Search with WordPress Multisite",
-      "articleUrl": "https://upstatement.com/blog/integrating-algolia-search-with-wordpress-multisite/",
-      "imagePath": "/articles/algolia-search.webp",
-      "year": "2022"
+      "title": "Migrating Photos and Videos from Cloudinary to Bunny.net in Strapi Headless CMS",
+      "articleUrl": "https://medium.com/@pierrehrt/migrating-photos-and-videos-from-cloudinary-to-bunny-net-in-strapi-headless-cms-54833e9ec1fa",
+      "imagePath": "/articles/bunny-cloudinary.webp",
+      "year": "2024"
     }
   ]
 }

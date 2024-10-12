@@ -29,7 +29,7 @@
           />
         </li>
       </ol>
-      <TextLink url="/resume.pdf" name="View Full Résumé" />
+      <TextLink url="/pdf/resume.pdf" name="View Full Résumé" />
     </div>
   </section>
 </template>
